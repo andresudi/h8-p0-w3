@@ -10,7 +10,7 @@ function dataHandling2(input) {
     let bulan = input[3].split("/")
     //console.log(bulan)
     let bulanHuruf = Number(bulan[1])
-    let bulanStrip = bulan.join('-')
+    
     //console.log(bulanHuruf)
 
     // jadiin 05 -> MAY
@@ -35,8 +35,12 @@ function dataHandling2(input) {
     bulan.sort(function(value1, value2){
         return value1[1] < value2[2]
     })
+   
+    // ngebikin jadi ["1989", "21", "05"]
+    console.log(bulan)
 
     // bikin kaya gini ( 1989 - 21 - 05)
+    let bulanStrip = bulan.join('-')
     console.log(bulanStrip)
 
     // Ngebaca Roman Alamsyah doang
