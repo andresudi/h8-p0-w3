@@ -21,7 +21,7 @@ console.log(mengelompokkanAngka([1, 2, 3, 4, 5, 6, 7, 8, 9])); // [ [ 2, 4, 8 ],
 console.log(mengelompokkanAngka([100, 151, 122, 99, 111])); // [ [ 100, 122 ], [ 151 ], [ 99, 111 ] ]
 console.log(mengelompokkanAngka([])); // [ [], [], [] ]
 
-// cara lain 
+// CARA LAIN
 // MAININ URUTAN
 
 /* function mengelompokkanAngka(arr) {
@@ -44,3 +44,15 @@ console.log(mengelompokkanAngka([])); // [ [], [], [] ]
 
     return newArray;
 } */
+
+// BUAT NGERTIIN .push
+
+/* var a = []
+
+a.push([25])
+a[0].push(26)
+a.push([27])
+a[0].push(28)
+a.push([])
+a[2].push(29)
+console.log(a) */
